@@ -8,6 +8,9 @@ import HomePage from './../Pages/HomePage/HomePage';
 // import Skills from './../Pages/Skills/Skills';
 // import Testimonials from './../Pages/Testimonials/Testimonials';
 // import Contact from '../Pages/Contact/Contact';
+import ContestHubDetailsPage from './../Pages/HomePage/RecentWorks/ContestHubDetailsPage/ContestHubDetailsPage';
+import RootJobsDetailsPage from '../Pages/HomePage/RecentWorks/RootJobsDetailsPage/RootJobsDetailsPage';
+import ArtandCraftWeb from '../Pages/HomePage/RecentWorks/ArtandCraftWeb/ArtandCraftWeb';
 
 export const router = createBrowserRouter([
     {
@@ -18,6 +21,18 @@ export const router = createBrowserRouter([
             {
                 path: "/",
                 element: <HomePage />,
+            },
+            {
+                path: "/contestHUB/detailsPage",
+                element: <ContestHubDetailsPage />,
+            },
+            {
+                path: "rootJobs/detailsPage",
+                element: <RootJobsDetailsPage />,
+            },
+            {
+                path: "craftPlanet/detailsPage",
+                element: <ArtandCraftWeb />,
             },
             // {
             //     path: "/services",

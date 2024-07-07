@@ -63,7 +63,7 @@ const RecentWorks = () => {
 
                     <p className="text-neutral-500 text-sm text-justify ">Browse through our curated listings, explore diverse industries, and discover positions that align with your career goals. With intuitive search features and personalized recommendations.</p>
 
-                    <Link className="bg-sky-950 hover:bg-sky-900 text-white btn w-full mt-4" to='contestHUB/detailsPage'>Learn More</Link>
+                    <Link className="bg-sky-950 hover:bg-sky-900 text-white btn w-full mt-4" to='rootJobs/detailsPage'>Learn More</Link>
                     <Link target="_blank" className="text-center btn-link mt-6 block" to='https://rootjobs-944e5.web.app'>Visit Live Site</Link>
                 </div>
                 {/* art and craft store */}
@@ -80,7 +80,7 @@ const RecentWorks = () => {
 
                     <p className="text-neutral-500 text-sm text-justify ">Our mission is to empower and inspire creativity in everyone. We believe that art and craft have the power to bring joy, reduce stress, and connect people. We are dedicated to providing you with the resources.</p>
 
-                    <Link className="bg-sky-950 hover:bg-sky-900 text-white btn w-full mt-4" to='contestHUB/detailsPage'>Learn More</Link>
+                    <Link className="bg-sky-950 hover:bg-sky-900 text-white btn w-full mt-4" to='craftPlanet/detailsPage'>Learn More</Link>
                     <Link target="_blank" className="text-center btn-link mt-6 block" to='https://art-and-craft-store-c95fe.web.app'>Visit Live Site</Link>
                 </div>
             </div>
